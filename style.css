@@ -4,7 +4,7 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 800vh;
+    height: 407vh;
     font-family: Oswald;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -268,7 +268,7 @@ transition: all 0.3s ease;
 .wrapper-2 {
     position: absolute;
     width: 100%;
-    height: 108vh;
+    height: 100vh;
     background: #F4A673;
 }
 
@@ -418,10 +418,10 @@ color: #FFFFFF;
 
 
 .wrapper-3 {
-  margin-top: 108vh;
+  margin-top: 100vh;
   width: 100%;
-  height: 100vh;
-  background: #ffffff;
+  height: 107vh;
+  background: #bee7f7;
 }
 
 
@@ -509,3 +509,176 @@ color: #FFFFFF;
 }
 
 /*-----------Fin troisième page--------*/
+
+
+.wrapper-4 {
+  width: 100%;
+  height: 80vh;
+  background-image: url('photo/background-4.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+
+
+
+
+#line {
+  position: absolute;
+  width: 65.07px;
+  
+  margin-top: -15%;
+}
+
+.wrapper-white-events {
+  background: white;
+  width: 90%;
+height: 608px;
+margin-top: 20px;
+text-align: center;
+background: #FFFFFF;
+font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 59px;
+align-items: center;
+align-content: center;
+color: #000000;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper-events {  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 160px 160px 160px;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "event1"
+    "event2"
+    "event3";
+    width: 90%;
+    
+}
+
+.event1 { 
+  grid-area: event1;
+  background-image: url('photo/event1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+ }
+
+.event2 {
+   grid-area: event2;
+   background-image: url('photo/event2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+   }
+
+.event3 {
+   grid-area: event3;
+   background-image: url('photo/event3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+   }
+
+
+.center-events {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper-events h1 {
+  font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+text-align: center;
+
+line-height: 44px;
+
+color: #FFFFFF;
+}
+
+.wrapper-events img {
+  width: 38px;
+  height: 28px;
+}
+
+/*------------Fin quatrième page accueil------------*/
+
+footer {
+  margin-top: 80vh;
+  height: 190px;
+  width: 100%;
+  background: black;
+  position: absolute;
+}
+
+.wrapper-ahref {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "don actualités"
+    "événements pétition"; 
+    width: 200px;
+}
+
+#don { grid-area: don; }
+#actualités { grid-area: actualités; }
+#événements { grid-area: événements; }
+#pétition { grid-area: pétition; }
+
+.wrapper-ahref a {
+  left: 170px;
+  top: 720px;
+  text-decoration: none;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+}
+
+
+footer h3 {
+  left: 31px;
+  top: 825px;
+
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8px;
+  line-height: 7px;
+  margin-left: 30px;
+  color: #FFFFFF;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5vh;
+  margin-left: -3%;
+}
+
+#logo2 {
+  margin-top: -10px;
+  margin-right: 2%;
+}
