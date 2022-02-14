@@ -11,7 +11,7 @@
     <div class="wrapper-1">
         <div class="navbar-1">
                
-            <img  src="événements-photo/logo.png" id="logo">
+            <img onclick="location.href='index.html'" src="événements-photo/logo.png" id="logo">
             <button onclick="location.href='don.html'" id="donate-btn">DON</button>
         <div class="hamburger-nav">
                 <input id="toggle" type="checkbox"></input>        
@@ -25,10 +25,10 @@
                 <div class="nav">
                 <div class="nav-wrapper">
                 <div class="nav2">
-                <a href="#">Accueil</a><br>
-                <a href="#">Actualités</a><br>
-                <a href="#">Evénements</a><br>
-                <a href="#">Don</a>
+                    <a href="index.html">Accueil</a><br>
+                    <a href="actualités.html">Actualités</a><br>
+                    <a href="événements.html">Evénements</a><br>
+                    <a href="don.html">Don</a>
                 </div>    
     
                 </div>
@@ -36,6 +36,83 @@
        
         </div>
     
+
     </div>
+    <div class="wrapper-title-1">
+        <h2>Donations</h2>
+    </div>
+    
+        <div class="wrapper-title-2">
+            <h1>Votre don est notre force</h1>
+        </div>
+    
+    <div class="wrapper-line">
+        <div id="ligne"></div>
+    </div>
+
+<div class="center-don">
+    <div class="wrapper-don">
+        <!--Donate form-->
+        <div class="donation-container">
+            
+            <div class="donation-box">
+                <div class="title">Informations</div>
+                
+                <div class="fields">
+                    <input type="text" id="firstName" placeholder="Nom"> </input>
+                    <input type="text" id="lastName" placeholder="Prénom"> </input>
+                    <input type="text" id="email" placeholder="Email"> </input>
+                </div>
+                
+                <div class="amount">
+                    <div class="button">30€</div>
+                    <div class="button">50€</div>
+                    <div class="button">100€</div>
+                    <div class="button">€<input type="text" class="set-amount" placeholder=""> </input></div>
+                </div>
+                
+                
+                <div class="checkboxes">
+                    <br />
+                    <input type="checkbox" id="anon" class="checkbox" />
+                    <label for="anon">Donner anonymement</label>
+                    <br />
+                    <input type="checkbox" id="list" class="checkbox" />
+                    <label for="list">Reçu</label>
+                </div>
+                
+                <div class="confirm">
+                    
+                </div>
+                
+                <div class="donate-button"><i class="fa fa-credit-card"></i> Valider</div>
+            </div>
+            
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://raw.githubusercontent.com/jerryluk/jquery.autogrow/master/jquery.autogrow-min.js"></script>
+    </div>
+</div>
+
+
+
+
+</div>
+
+
+
+<footer>
+    <div class="footer">
+        <img onclick="location.href='index.html'" src="photo/logo2.png" id="logo2">
+    <div class="wrapper-ahref">
+        <a href="don.html" id="don">Faire un don</a>
+        <a href="#" id="actualités">Actualités</a>
+        <a href="événements.html" id="événements">Evénements</a>
+        <a href="https://www.wwf.fr/sengager-ensemble/relayer-campagnes/une-loi-contre-la-deforestation" id="pétition">Pétition</a>
+    </div>
+    </div>
+    <h3>BDC Wildlife Health All Rights Reserved </h3>
+    </footer>
 </body>
 </html>
