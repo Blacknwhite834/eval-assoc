@@ -279,8 +279,9 @@ article img {
 }
 
 article {
-  margin: 20px;
+  
   border-radius: 10px;
+  margin-top: 80px;
 }
 
 article h1 {
