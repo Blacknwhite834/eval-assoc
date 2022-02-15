@@ -25,7 +25,7 @@ html, body {
     height: 15%;
     width: 100%;
    justify-content: flex-start;
-
+  
 }
 
 
@@ -734,12 +734,12 @@ footer {
 #événements { grid-area: événements; }
 #pétition { grid-area: pétition; }
 
-#don:hover{
-  color: #ffffff;
+.wrapper-ahref #don:hover{
+  color: #F4A673;
 }
 
-#actualités:hover{
-  color: #ffffff;
+.wrapper-ahref #actualités:hover{
+  color: #F4A673;
 }
 
 #événements:hover{
