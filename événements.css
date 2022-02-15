@@ -240,6 +240,11 @@ color: #FFFFFF;
     justify-content: center;
 }
 
+iframe {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
 .wrapper-pbm { 
     display: grid;
     grid-template-columns: 1fr;
@@ -259,16 +264,19 @@ color: #FFFFFF;
 .paris { 
       grid-area: paris;
       background: #F4A673;
+      border-radius: 10px;
      }
   
 .barcelone { 
       grid-area: barcelone;
       background: #F4A673;
+      border-radius: 10px;
      }
   
 .milan { 
       grid-area: milan;
       background: #F4A673;
+      border-radius: 10px;
 }
 
 
